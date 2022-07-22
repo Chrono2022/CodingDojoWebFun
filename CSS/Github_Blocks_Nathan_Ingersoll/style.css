@@ -1,0 +1,43 @@
+.container {
+    background-color: lightgray;
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 400%;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.row1 {
+    display:flex;
+    justify-content: space-around;
+    background-color: lightskyblue;
+    margin: 20px;
+}
+
+.row2 {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    margin: 20px;
+}
+
+.row3 {
+    display:flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 20px;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8 {
+    height: 200px;
+    margin: 10px
+}
+
+p {
+    text-align: center;
+}

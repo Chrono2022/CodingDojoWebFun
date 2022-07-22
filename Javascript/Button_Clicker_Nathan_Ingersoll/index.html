@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Button Clicker</title>
+</head>
+<body>
+    <header>
+        <p id="dojonary">Dojonary</p>
+        <input type="text" name="Search" placeholder="Search">
+        <button id="login" onclick="logOut(this)">Login</button>
+    </header>
+    <main>
+        <div class="content">
+            <div class="word">
+                <div class="noun">
+                    <p class="ninja">ninja</p>
+                    <p><em>noun</em></p>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="definition">
+                    <p>A practioner skilled in the<br>
+                    <a href="https://en.wikipedia.org/wiki/Japan">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu">Ninjitsu</a></p>
+                </div>
+            </div>
+            <div class="word">
+                <div class="noun">
+                    <p class="ninja">ninja</p>
+                    <p><em>noun</em></p>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button onclick="alert('Ninja was liked')">37 likes</button>
+                </div>
+                <div class="definition">
+                    <p>A <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks<br>
+                    down problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like<br> 
+                    focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="defined">
+            <p id="dojonary">Dojonary is<br>
+            defined by <span id="you">YOU</span></p>
+            <button id="defined-btn" onclick="removeButton(this)">Add Definition</button>
+        </div>
+    </main>
+</body>
+</html>

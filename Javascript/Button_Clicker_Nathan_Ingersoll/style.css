@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 850px;
+        height: 70px;
+        background-color: lightgrey;
+    }
+
+        #dojonary {
+            font-size: 40px;
+            font-weight: 700;
+            margin-left: 20px;
+        }
+
+        input {
+            padding: 5px 150px 5px 0px;
+        }
+        
+        #login {
+            margin-right: 20px;
+            padding: 5px 15px;
+        }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 850px;
+    }
+
+    .content {
+        height: 500px;
+        margin-top: 25px;
+    }
+
+    .defined {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+        width: 300px;
+        height: 200px;
+        border: 3px solid black;
+    }
+
+        .word {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-bottom: 25px;
+            width: 500px;
+            height: 200px;
+            border: 3px solid black;
+        }
+
+            .noun {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            .definition {
+                display: flex;
+                align-items: center;
+            }
+
+        .defined {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+                .ninja {
+                    font-size: 45px;
+                    font-weight: 700;
+                }
+
+                p {
+                    font-size: 25px;
+                }
+
+                button {
+                    padding: 10px 30px;
+                    background-color: rgb(238, 209, 113);
+                    color: black;
+                    box-shadow: 3px 3px black;
+                }
+
+                #login {
+                    background-color: blue;
+                    color: white;
+                }
+
+                #defined-btn {
+                    font-size: 25px;
+                    background-color: green;
+                }
+

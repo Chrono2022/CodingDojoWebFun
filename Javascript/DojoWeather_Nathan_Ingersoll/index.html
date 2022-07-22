@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>DojoWeather</title>
+</head>
+<body>
+    <header>
+        <h1 id="header-title">DojoWeather</h1>
+        <ul id="header-links">
+            <li id="Burbank" onclick="cityAlert('#Burbank')">Burbank</li>
+            <li id="Chicago" onclick="cityAlert('#Chicago')">Chicago</li>
+            <li id="Dallas" onclick="cityAlert('#Dallas')">Dallas</li>
+        </ul>
+    </header>
+    <main>
+        <div class="San-Jose">
+            <h2>San Jose</h2>
+            <p>show temperature in 
+                <select onchange="convertTemp(this)">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </p>
+        </div>
+        <div class="forecast">
+            <div class="today">
+                <h3>Today</h3>
+                <img src="./assets/some_rain.png" alt="some rain">
+                <p>some rain</p>
+                <p>
+                    <span class="temperature" id="temp1">24°</span>
+                    <span class="temperature2" id="temp2">18°</span>
+                </p>
+            </div>
+            <div class="tomorrow">
+                <h3>Today</h3>
+                <img src="./assets/some_sun.png" alt="some sun">
+                <p>some sun</p>
+                <p>
+                    <span class="temperature" id="temp3">27°</span>
+                    <span class="temperature2" id="temp4">19°</span>
+                </p>
+            </div>
+            <div class="friday">
+                <h3>Today</h3>
+                <img src="./assets/some_clouds.png" alt="some clouds">
+                <p>some clouds</p>
+                <p>
+                    <span class="temperature" id="temp5">21°</span>
+                    <span class="temperature2" id="temp6">16°</span>
+                </p>
+            </div>
+            <div class="saturday">
+                <h3>Today</h3>
+                <img src="./assets/some_sun.png" alt="some sun">
+                <p>some sun</p>
+                <p>
+                    <span class="temperature" id="temp7">26°</span>
+                    <span class="temperature2" id="temp8">21°</span>
+                </p>
+            </div>
+        </div>
+        <div id="cookie">
+            <img id="cookie-image" src="./assets/cookie.png" alt="cookie image">
+            <div class="cookie-paragraph">
+                <h4>Stop! Cookie Time</h4>
+                <p>We use cookies (sadly not the edible ones) to personalize<br>
+                    content and ads, to provide social media features and to<br>
+                    analyze our traffic. <span><a href="#">Read more...</a></span></p>
+            </div>
+            <button id="cookie-btn" onclick="removeCookie()">I Accept</button>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

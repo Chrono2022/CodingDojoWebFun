@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Likes Part 2</title>
+</head>
+<body>
+    <header><span id="header-title">Network</span></header>
+    <main>
+        <div class="main-title">
+            <p>Your Feed</p>
+        </div>
+        <div class="feed">
+            <div class="user">
+                <img id="avatar" src="./images/user-circle.png" alt="user-circle">
+                <a href="#">Add an avatar</a> 
+                <p id="username">James Doe</p>
+            </div>
+            <div class="comments">
+                <div class="friends">
+                    <div class="row1">
+                        <h1>Neil M</h1>
+                        <div class="numoflikes">
+                            <p><span id="neil-likes">9</span> like(s)</p>
+                            <button id="neil-btn" onclick=clickMe1() class="btn">Like</button>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <p>I just set up this new discord bot, let me<br>
+                        know what you all think. <span><a href="https://zelda.fandom.com/wiki/Link">link</a></span></p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <div class="row1">
+                        <h1>Nichole K</h1>
+                        <div class="numoflikes">
+                            <p><span id="nicole-likes">12</span> like(s)</p>
+                            <button id="nicole-btn" onclick=clickMe2() class="btn">Like</button>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <p>Just finished my <span><a href="https://www.marvel.com/comics/collection/67551/spider-man_vs_venom_omnibus_hardcover">next comic</a></span>, check it out.</p>
+                    </div>
+                </div>
+                <div class="friends">
+                    <div class="row1">
+                        <h1>Jim R</h1>
+                        <div class="numoflikes">
+                            <p><span id="jim-likes">9</span> like(s)</p>
+                            <button id="jim-btn" onclick=clickMe3() class="btn">Like</button>
+                        </div>
+                    </div>
+                    <div class="row2">
+                        <p>I can't stop listening to the <span><a href="https://en.wikipedia.org/wiki/Wingspan:_Hits_and_History">new album</a></span>.<br>
+                            Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+<script src="./script.js"></script>
+</body>
+</html>
